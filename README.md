@@ -4,7 +4,7 @@ FitTwin is an open-source, local-first body profile and style-guide toolkit. Ind
 
 > Alpha software: FitTwin offers styling options, not medical advice, an identity classification, a body scan, or a guarantee of fit.
 
-[Open the live demo](https://j1374483500-dot.github.io/fittwin/) · [Changelog](CHANGELOG.md)
+[Open the live demo](https://hyrenlab.github.io/fittwin/) · [Changelog](CHANGELOG.md)
 
 ![FitTwin personal web app with built-in example measurements](docs/images/personal-web.png)
 
@@ -31,7 +31,7 @@ pnpm dev:web
 
 Open the displayed local URL. Profiles and feedback are retained only in that browser's IndexedDB. Use **Export profile** before changing browsers or devices.
 
-The [live demo](https://j1374483500-dot.github.io/fittwin/) is deployed to GitHub Pages after every successful `main` build. It works without any model key: create a profile, generate an offline base guide, and build a local wardrobe first. The companion is only required for a provider-generated guide.
+The [live demo](https://hyrenlab.github.io/fittwin/) is deployed to GitHub Pages after every successful `main` build. It works without any model key: create a profile, generate an offline base guide, and build a local wardrobe first. The companion is only required for a provider-generated guide.
 
 ### Check a garment size table
 
@@ -87,7 +87,7 @@ pnpm test
 pnpm build
 ```
 
-The current source version is `0.1.0-alpha.2`. See [GitHub prereleases](https://github.com/j1374483500-dot/fittwin/releases) and the [changelog](CHANGELOG.md) for release history, changes, and remaining limitations. GitHub releases and npm publication are separate: use the source checkout above; npm publication remains opt-in and requires the `@fittwin` scope and release credentials.
+The current source version is `0.1.0-alpha.2`. See [GitHub prereleases](https://github.com/hyrenlab/fittwin/releases) and the [changelog](CHANGELOG.md) for release history, changes, and remaining limitations. GitHub releases and npm publication are separate: use the source checkout above; npm publication remains opt-in and requires the `@fittwin` scope and release credentials.
 
 ## License
 
